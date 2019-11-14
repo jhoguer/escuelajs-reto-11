@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 
 const { config } = require('./config');
 const platziStore = require('./routes')
